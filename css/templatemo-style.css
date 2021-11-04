@@ -355,7 +355,8 @@ h1,h2,h3,h4,h5
         text-align: center;
         margin-right: 20px;
     }
-    #mailme .fa:hover
+   
+    #contact-links  .fa:hover
     {
         background: #D43F52;
         border-color: transparent;
