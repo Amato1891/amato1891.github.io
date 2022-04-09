@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/jimf.png');
+        background: url('https://i.pinimg.com/originals/cc/d2/92/ccd2926b176eb5cf2c2ee638ec1d0aea.gif');
         background-size:cover;
         background-repeat: no-repeat;
         padding-top: 120px;
@@ -328,6 +328,16 @@ h1,h2,h3,h4,h5
         opacity: 0.8;
         transform: scale(0.9);
     }
+
+#box {
+    border: 3px solid;
+    border-image: linear-gradient(to right, #FFD700, #af9500);
+    border-image-slice: 1;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+}
+
 /* end portfolio */
 
 /* start contact */
