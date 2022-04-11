@@ -439,4 +439,14 @@ footer hr
     {
         color: #D43F52;
     }
+
+.certificate {
+    padding:15px;
+}
+
+#certificate {
+    border: 5px double gold;
+    height: 90%;
+    width: 90%;
+}
 /* end social icon */
