@@ -105,7 +105,7 @@
             normalScrollElements: null,
             scrollOverflow: false,
             touchSensitivity: 5,
-            normalScrollElementTouchThreshold: 999999999999,
+            normalScrollElementTouchThreshold: 5,
 
             //Accessibility
             keyboardScrolling: true,
