@@ -148,7 +148,7 @@
         $.extend($.easing,{ easeInQuart: function (x, t, b, c, d) { return c*(t/=d)*t*t*t + b; }});
 
         FP.setAutoScrolling = function(value, type){
-            setVariableState('autoScrolling', false, type);
+            setVariableState('autoScrolling', value, type);
 
             var element = $(SECTION_ACTIVE_SEL);
 
