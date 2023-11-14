@@ -94,7 +94,7 @@
             // scrolling
             css3: true,
             scrollingSpeed: 700,
-            autoScrolling: false,
+            autoScrolling: true,
             fitToSection: false,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
