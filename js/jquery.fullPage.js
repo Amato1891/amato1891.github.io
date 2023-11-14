@@ -1063,7 +1063,7 @@
             //callback (onLeave) if the site is not just resizing and readjusting the slides
             $.isFunction(options.onLeave) && !v.localIsResizing && options.onLeave.call(v.activeSection, v.leavingSection, (v.sectionIndex + 1), v.yMovement);
 
-            performMovement(v);
+            // performMovement(v);
 
             //flag to avoid callingn `scrollPage()` twice in case of using anchor links
             lastScrolledDestiny = v.anchorLink;
