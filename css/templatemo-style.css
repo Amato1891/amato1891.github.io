@@ -171,12 +171,9 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('https://i.pinimg.com/originals/cc/d2/92/ccd2926b176eb5cf2c2ee638ec1d0aea.gif');
-        background-size:cover;
-        background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
-        text-align: center;
+        text-align: center;    
 	}
 #home h1
     {
