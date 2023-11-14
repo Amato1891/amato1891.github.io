@@ -105,7 +105,7 @@
             normalScrollElements: null,
             scrollOverflow: false,
             touchSensitivity: 5,
-            normalScrollElementTouchThreshold: 5,
+            normalScrollElementTouchThreshold: 999999999999,
 
             //Accessibility
             keyboardScrolling: true,
@@ -148,7 +148,7 @@
         $.extend($.easing,{ easeInQuart: function (x, t, b, c, d) { return c*(t/=d)*t*t*t + b; }});
 
         FP.setAutoScrolling = function(value, type){
-            setVariableState('autoScrolling', value, type);
+            setVariableState('autoScrolling', false, type);
 
             var element = $(SECTION_ACTIVE_SEL);
 
