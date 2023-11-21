@@ -1,0 +1,3 @@
+Sitemap: https://jimamato.com/sitemap.xml
+User-agent: *
+Crawl-delay: 5
